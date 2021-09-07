@@ -85,28 +85,28 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-if DEBUG:
-    DATABASES = {
-        # 'default': dj_database_url.config(conn_max_age=600,ssl_require=True)
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'bookstore',
-            'USER': 'root',
-            'PASSWORD': 'Jc@123456',
-            'HOST': 'localhost',
-            'PORT': '3306',
-        }
-    }
-else:
-    DATABASES = {  
-	'default': {     
-		'ENGINE': 'django.db.backends.postgresql_psycopg2',       
-		'NAME': 'bookstore',       
-		'USER': 'djangouser',        
-		'PASSWORD': 'Jc@12345678',        
-		'HOST': 'localhost',       
-		'PORT': '',    
-	}
+# if DEBUG:
+#     DATABASES = {
+#         'default': dj_database_url.config(conn_max_age=600,ssl_require=True)
+#         'default': {
+#             'ENGINE': 'django.db.backends.mysql',
+#             'NAME': 'bookstore',
+#             'USER': 'root',
+#             'PASSWORD': 'Jc@123456',
+#             'HOST': 'localhost',
+#             'PORT': '3306',
+#         }
+#     }
+# else:
+DATABASES = {  
+'default': {     
+    'ENGINE': 'django.db.backends.postgresql_psycopg2',       
+    'NAME': 'bookstore',       
+    'USER': 'djangouser',        
+    'PASSWORD': 'Jc@12345678',        
+    'HOST': 'localhost',       
+    'PORT': '',    
+}
 }
 
 # Password validation

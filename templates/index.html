@@ -84,7 +84,7 @@
        <div class="card">
          {% if book.image %}
          <a href="{% url 'stock_book:detail' slug=book.slug %}">
-           <img src="static{{book.image.url}}" alt="" class="card-img-top p-3" />
+           <img src="{{book.image.url}}" alt="" class="card-img-top p-3" />
          </a>
          {% endif %}
 

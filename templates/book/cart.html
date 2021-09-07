@@ -1,0 +1,161 @@
+{% extends "layouts/base.html" %} 
+
+{% load humanize %} 
+{# load humanize ใช้กับฟังก์ชั่น intcomma} 
+
+{# Send Title to Parent Component} 
+{% block title %} Shopping Cart {% endblock %} 
+
+{# Start Content to Parent Component} 
+{% block content %}
+<div class="row ">
+  <div class="col-lg-6 offset-lg-3">
+    <h1>Cart List</h1>
+
+    <form method="post" action={% url 'stock_book:edit_qty' %}>
+      {% csrf_token %}
+
+      <div class="table-responsive">   
+      <table class="table table-bordered border-dark" table-bordered>
+        <thead style="text-align: center">
+          <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Qty</th>
+            <th>Price</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for item in cart_items %}
+          <tr>
+            <td>{{item.code}}</td>
+            <td>
+              {{item.name}}
+              <input
+                type="text"
+                hidden
+                size="5"
+                name="slug"
+                value="{{item.slug}}"
+              />
+            </td>
+            <td style="text-align: center">
+              <input
+                class="qty_input"
+                type="number"
+                style="width: 60px"
+                value="{{item.qty}}"
+                name="qty"
+                onchange='hide_Btn()'
+              />
+            </td>
+            <td style="text-align: center">{{item.price}}</td>
+            <td style="text-align: center">
+              <a
+                href="{% url 'stock_book:cart_delete' slug=item.slug %}"
+                class="btn btn-danger"
+              >
+                <i class="fas fa-trash"></i>
+                Delete
+              </a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>      
+      </div>
+
+      <ul class="pagination mt-3">
+
+        <!-- ถ้าเขียนแบบ FBV ใช้ books ถ้าใช้ CBV ให้ใช้ page_obj -->
+        {% if page_obj.has_previous %}
+        <li class="page-item">
+          <a class="page-link" href="?page={{page_obj.previous_page_number}}" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        {% endif %}
+    
+        {% for item in page_obj.paginator.page_range %}
+        {% if page_obj %}
+        <li class="page-item {% if page_obj.number == item %}active{% endif %}"><a class="page-link" href="?page={{item}}">{{item}}</a></li>
+        {% endif %}
+        {% endfor %}
+    
+        {% if page_obj.has_next %}
+        <li class="page-item">
+          <a class="page-link" href="?page={{page_obj.next_page_number}}">Next</a>
+        </li>
+        {% endif %}
+      </ul>
+
+    <div class="row">
+      <div class="col-12 col-lg-6">     
+          <div class="w-50">
+           <button type='submit' id='btn_save' onclick="show_Btn()"   class="btn btn-success me-1 w-100 ">
+             <i class="fas fa-save"></i>
+             Save
+           </button>
+          </div>
+
+          <div class="w-50 my-2">
+            <a href="{% url 'stock_book:edit_address' username=user %}"  id='btn_sell' class="btn btn-info w-100 ">
+              <i class="fas fa-money-bill-wave-alt"></i>
+              Next
+            </a>
+          </div>
+
+          <!-- <div class="w-50 my-2">
+            <a href="{% url 'stock_book:create_salesorder' user_id=user.id %}"  id='btn_sell' class="btn btn-info w-100 ">
+              <i class="fas fa-money-bill-wave-alt"></i>
+              Save
+            </a>
+          </div> -->
+            
+           <div class="w-50 my-2">
+             <a href="{% url 'stock_book:index' %}" class="btn btn-warning w-100 ">
+               <i class="fas fa-backspace"></i>
+               Back
+             </a>
+           </div>
+
+           <div class="w-50">
+             <a href="{% url 'stock_book:cart_delete_all' %}" class="btn btn-danger w-100">
+               <i class="fas fa-trash"></i>
+               Delete all
+             </a>
+           </div>
+      </div>
+    </div>
+
+
+  </form >
+    <!-- <a href="#" class="btn btn-danger btn-lg float-end">
+      <i class="fas fa-backspace"></i>
+      Check Out
+    </a> -->
+  </div>
+</div>
+
+<script>
+  function Submit_edit_address() {
+    document.forms["edit_address"].submit();
+  }
+
+  btn_save = document.getElementById('btn_save').style.display = "none"; 
+  qtyInput = document.getElementsByClassName('qty_input');
+
+  const show_Btn = () =>{
+    btn_sell = document.getElementById('btn_sell').style.display = "block";
+    btn_save = document.getElementById('btn_save').style.display = "none"; 
+  }
+
+  const hide_Btn = () =>{
+    btn_sell = document.getElementById('btn_sell').style.display = "none";
+    btn_save = document.getElementById('btn_save').style.display = "block"; 
+  }
+
+</script>
+
+{% endblock %} 
+{# End Content to Parent Component}

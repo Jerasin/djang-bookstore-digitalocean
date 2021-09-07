@@ -1,0 +1,150 @@
+{% extends "layouts/base.html" %} 
+
+{% load humanize %}
+{# load humanize ใช้กับฟังก์ชั่น intcomma}
+
+{% load static %}
+
+{# Send Title to Parent Component}
+{% block title %} Home page{% endblock %} 
+
+{# Start Content to Parent Component}
+{% block content %}
+<style>
+  img {
+    float: center;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.wlc{
+  /* จำกัดความยาวบรรทัด */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    float: left;
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+</style> 
+<h1>Book List</h1>
+
+<div class="row">
+  <div class="col-12 col-lg-2">
+
+    {% if user.is_superuser %}
+    <a class="btn btn-danger w-100 mb-2" href="{% url 'stock_book:book_list' %}">Book</a>
+    {% endif %}
+
+    {% if user.is_superuser %}
+    <a class="btn btn-info w-100 mb-2" href="{% url 'stock_book:author_list' %}">Author</a>
+    {% endif %}
+
+    {% if user.is_superuser %}
+    <a class="btn btn-secondary w-100 mb-2" href="{% url 'stock_book:category_list' %}"> Cartegory</a>
+    {% endif %}
+
+
+      <div class="list-group">
+        <a
+        href="{% url 'stock_book:index' %}"
+        class="
+          list-group-item list-group-item-action
+          text-center
+          {% if not categoried_id %}active{% endif %}"
+        aria-current="true"
+        >All</a
+      >
+      {% for item in categories %}
+      <a
+        href="{% url 'stock_book:index' %}?categoryid={{item.id}}"
+        class="
+          list-group-item list-group-item-action
+          {% if categoried_id|add:'0' == item.id %}active{% endif %}"
+        >{{item.name}}</a
+      >
+      {% endfor %}
+      </div>
+  </div>
+
+  <div class="clo-auto col-lg-10">
+    
+    <div class="row mt-3 mt-lg-0">
+      
+     {% for book in books %}
+     <div class="col-12 col-lg-3 mb-3">
+       <div class="card">
+         {% if book.image %}
+         <a href="{% url 'stock_book:detail' slug=book.slug %}">
+           <img src="static{{book.image.url}}" alt="" class="card-img-top p-3" />
+         </a>
+         {% endif %}
+
+         {% if not book.image %}
+         <a href="{% url 'stock_book:detail' slug=book.slug %}">
+           <center><img  src='../static/media/public/no_image_2.jpg' alt="" class="card-img-top p-3"/></center>
+         </a>
+         {% endif %}
+
+         <div class="card-body mb-4">
+           <p class='fs-5 wlc'><b>{{book.name}}</b></p>
+
+           {% for author in book.author.all %}
+           <div>Author : {{author.name}} </div>
+           {% endfor %}
+
+           <div>Price : {{book.price|floatformat:2|intcomma}} B</div>
+
+           <span>Category Tag :</span>   
+           <span class="badge bg-secondary">
+             {{book.category}}
+           </span>
+           
+           <br>
+
+           <a href="{% url 'stock_book:detail' slug=book.slug %}" class="btn btn-info mt-1">View detail</a>
+       </div>
+     </div>
+   </div>
+   {% endfor %}
+    </div>
+
+    <ul class="pagination mt-3">
+
+      <!-- ถ้าเขียนแบบ FBV ใช้ books ถ้าใช้ CBV ให้ใช้ page_obj -->
+      {% if page_obj.has_previous %}
+      <li class="page-item">
+        <a class="page-link" href="?page={{page_obj.previous_page_number}}" tabindex="-1" aria-disabled="true">Previous</a>
+      </li>
+      {% endif %}
+  
+      {% for item in page_obj.paginator.page_range %}
+      {% if page_obj %}
+      <li class="page-item {% if page_obj.number == item %}active{% endif %}"><a class="page-link" href="?page={{item}}">{{item}}</a></li>
+      {% endif %}
+      {% endfor %}
+  
+      {% if page_obj.has_next %}
+      <li class="page-item">
+        <a class="page-link" href="?page={{page_obj.next_page_number}}">Next</a>
+      </li>
+      {% endif %}
+    </ul>
+
+       </div>
+  </div>
+</div>
+
+
+</div>
+
+<!-- End Content to Parent Component -->
+{% endblock %}

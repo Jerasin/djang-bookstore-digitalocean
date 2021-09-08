@@ -243,12 +243,14 @@ def book_add(request):
 def book_update(request,pk):
     session = Book.objects.get(id=pk)
     imageUrl = ''
+    imageDeletePath = ''
     if session.image:
         imageDeletePath = session.image.path  
         imageUrl = "/media/{}".format(session.image)
     if request.method == 'GET':
             form = BookForm(instance=session)
     if request.method == 'POST':
+            print("request.POST",request.POST)
             form = BookForm(request.POST, request.FILES,instance=session)
             if form.is_valid():
                 if request.FILES and imageDeletePath:

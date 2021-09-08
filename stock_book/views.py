@@ -224,7 +224,6 @@ def category_delete(request,pk):
 
 
 def book_add(request):
-    # form
     form = BookForm()
     if request.method == 'POST':
         form = BookForm(request.POST, request.FILES)
@@ -236,29 +235,31 @@ def book_add(request):
             book.save()
             form.save_m2m()
             messages.success(request, 'Save success')
-            return HttpResponseRedirect(reverse('stock_book:index', kwargs={}))
-        messages.error(request, 'Save Failed')
+            return HttpResponseRedirect(reverse('stock_book:index', kwargs={}))             
     return render(request, 'book/add.html', {
         'form': form,
     })
 
 def book_update(request,pk):
     session = Book.objects.get(id=pk)
-    imageUrl = "/media/{}".format(session.image) 
+    imageUrl = ''
+    if session.image:
+        imageUrl = "/media/{}".format(session.image) 
     if request.method == 'GET':
             form = BookForm(instance=session)
     if request.method == 'POST':
             form = BookForm(request.POST, request.FILES,instance=session)
-            if request.FILES:
-                os.remove(session.image.path)
-            # book = form.save(commit=False)
-            # book.created_by_id = request.user.id
-            # book.slug = slugify(book.name)
-            # book.published = True
-            form.save()
-            # form.save_m2m()
-            messages.success(request, 'Save success')
-            return HttpResponseRedirect(reverse('stock_book:index', kwargs={}))
+            if form.is_valid():
+                if request.FILES and  session.image:
+                    os.remove(session.image.path)               
+                # book.created_by_id = request.user.id
+                # book.slug = slugify(book.name)
+                # book.published = True
+                form.save()
+                # form.save_m2m()
+                messages.success(request, 'Save success')
+                return HttpResponseRedirect(reverse('stock_book:index', kwargs={}))
+            messages.error(request, 'Save Failed')
     return render(request, 'book/add.html', {
         'form': form,
         'imageUrl':imageUrl,

@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-gx%xf5_w)ldyq$_%a@-@xj9=7!+ep0@f$+^sa*bc)2x%6&=9=*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['188.166.208.101' 
                 ,'127.0.0.1'
@@ -85,28 +85,29 @@ WSGI_APPLICATION = 'bookstore.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# if DEBUG:
-#     DATABASES = {
-#         'default': dj_database_url.config(conn_max_age=600,ssl_require=True)
-#         'default': {
-#             'ENGINE': 'django.db.backends.mysql',
-#             'NAME': 'bookstore',
-#             'USER': 'root',
-#             'PASSWORD': 'Jc@123456',
-#             'HOST': 'localhost',
-#             'PORT': '3306',
-#         }
-#     }
-# else:
-DATABASES = {  
-'default': {     
-    'ENGINE': 'django.db.backends.postgresql_psycopg2',       
-    'NAME': 'bookstore',       
-    'USER': 'djangouser',        
-    'PASSWORD': 'Jc@12345678',        
-    'HOST': 'localhost',       
-    'PORT': '',    
-}
+
+DATABASES = {
+    # use Heroku clound
+    # 'default': dj_database_url.config(conn_max_age=600,ssl_require=True)
+
+    # use Development
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'bookstore',
+        'USER': 'root',
+        'PASSWORD': 'Jc@123456',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+
+    # 'default': {     
+    # 'ENGINE': 'django.db.backends.postgresql_psycopg2',       
+    # 'NAME': 'bookstore',       
+    # 'USER': 'djangouser',        
+    # 'PASSWORD': 'Jc@12345678',        
+    # 'HOST': 'localhost',       
+    # 'PORT': '',    
+    # }
 }
 
 # Password validation

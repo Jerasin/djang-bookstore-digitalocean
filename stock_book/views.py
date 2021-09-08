@@ -244,14 +244,16 @@ def book_update(request,pk):
     session = Book.objects.get(id=pk)
     imageUrl = ''
     if session.image:
-        imageUrl = "/media/{}".format(session.image) 
+        imageUrl = "/media/{}".format(session.image)
+        imageDeletePath = session.image.path  
     if request.method == 'GET':
             form = BookForm(instance=session)
+            print("GET",session.image)
     if request.method == 'POST':
             form = BookForm(request.POST, request.FILES,instance=session)
             if form.is_valid():
-                if request.FILES and  session.image:
-                    os.remove(session.image.path)               
+                if request.FILES and imageUrl:
+                    os.remove(imageDeletePath)  
                 # book.created_by_id = request.user.id
                 # book.slug = slugify(book.name)
                 # book.published = True
@@ -271,9 +273,7 @@ def book_delete(request,pk):
     if book_delete.image:
         book_delete.delete()
         os.remove(book_delete.image.path)
-        print("TEST",book_delete.image)
     else:
-        print("NOTIF",book_delete.image)
         book_delete.delete()
     messages.success(request, 'Delete Success')
     return HttpResponseRedirect(reverse('stock_book:book_list', kwargs={}))

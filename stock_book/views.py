@@ -244,15 +244,14 @@ def book_update(request,pk):
     session = Book.objects.get(id=pk)
     imageUrl = ''
     if session.image:
-        imageUrl = "/media/{}".format(session.image)
         imageDeletePath = session.image.path  
+        imageUrl = "/media/{}".format(session.image)
     if request.method == 'GET':
             form = BookForm(instance=session)
-            print("GET",session.image)
     if request.method == 'POST':
             form = BookForm(request.POST, request.FILES,instance=session)
             if form.is_valid():
-                if request.FILES and imageUrl:
+                if request.FILES and imageDeletePath:
                     os.remove(imageDeletePath)  
                 # book.created_by_id = request.user.id
                 # book.slug = slugify(book.name)

@@ -1,0 +1,64 @@
+2021-09-11 00:30:23 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-11 00:30:23 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-11 00:30:23 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7559
+2021-09-11 00:30:23 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7559
+2021-09-11 00:30:23 [INFO    ] (basehttp.log_message) "GET /media/upload/202109111.jpg HTTP/1.1" 304 0
+2021-09-11 00:30:23 [INFO    ] (basehttp.log_message) "GET /media/upload/202109111.jpg HTTP/1.1" 304 0
+2021-09-11 00:30:31 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 7546
+2021-09-11 00:30:31 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 7546
+2021-09-11 00:30:49 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-11 00:30:49 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-11 00:30:50 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-11 00:30:50 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-11 00:30:52 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 7546
+2021-09-11 00:30:52 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 7546
+2021-09-11 00:30:53 [INFO    ] (basehttp.log_message) "GET /update/70 HTTP/1.1" 200 9411
+2021-09-11 00:30:53 [INFO    ] (basehttp.log_message) "GET /update/70 HTTP/1.1" 200 9411
+2021-09-11 00:30:58 [INFO    ] (basehttp.log_message) "POST /update/70 HTTP/1.1" 302 0
+2021-09-11 00:30:58 [INFO    ] (basehttp.log_message) "POST /update/70 HTTP/1.1" 302 0
+2021-09-11 00:30:58 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7996
+2021-09-11 00:30:58 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7996
+2021-09-11 00:31:23 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 7546
+2021-09-11 00:31:23 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 7546
+2021-09-11 00:31:24 [INFO    ] (basehttp.log_message) "GET /book_list/delete/70 HTTP/1.1" 302 0
+2021-09-11 00:31:24 [INFO    ] (basehttp.log_message) "GET /book_list/delete/70 HTTP/1.1" 302 0
+2021-09-11 00:31:24 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 6950
+2021-09-11 00:31:24 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 6950
+2021-09-11 00:31:25 [INFO    ] (basehttp.log_message) "GET /add/ HTTP/1.1" 200 9000
+2021-09-11 00:31:25 [INFO    ] (basehttp.log_message) "GET /add/ HTTP/1.1" 200 9000
+2021-09-11 00:31:30 [INFO    ] (basehttp.log_message) "POST /add/ HTTP/1.1" 302 0
+2021-09-11 00:31:30 [INFO    ] (basehttp.log_message) "POST /add/ HTTP/1.1" 302 0
+2021-09-11 00:31:30 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 8016
+2021-09-11 00:31:30 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 8016
+2021-09-11 00:31:31 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 7546
+2021-09-11 00:31:31 [INFO    ] (basehttp.log_message) "GET /book_list HTTP/1.1" 200 7546
+2021-09-11 00:31:33 [INFO    ] (basehttp.log_message) "GET /update/71 HTTP/1.1" 200 9058
+2021-09-11 00:31:33 [INFO    ] (basehttp.log_message) "GET /update/71 HTTP/1.1" 200 9058
+2021-09-11 00:31:36 [ERROR   ] (log.log_response) Internal Server Error: /update/71
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py", line 256, in book_update
+    if request.FILES and imageDeletePath:
+UnboundLocalError: local variable 'imageDeletePath' referenced before assignment
+2021-09-11 00:31:36 [ERROR   ] (log.log_response) Internal Server Error: /update/71
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\contrib\auth\decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py", line 256, in book_update
+    if request.FILES and imageDeletePath:
+UnboundLocalError: local variable 'imageDeletePath' referenced before assignment
+2021-09-11 00:31:36 [ERROR   ] (basehttp.log_message) "POST /update/71 HTTP/1.1" 500 74320
+2021-09-11 00:31:36 [ERROR   ] (basehttp.log_message) "POST /update/71 HTTP/1.1" 500 74320
+2021-09-11 00:32:31 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-11 00:32:31 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-11 00:32:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-11 00:32:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader

@@ -34,7 +34,7 @@ LOGGING = {
         "file": {
             "level": "INFO",
             "class": "logging.FileHandler",
-            "filename": '/bookstore/logs/bookstore.log',
+            "filename": '/var/log/bookstore.log',
             "formatter": "app",
         },
     },

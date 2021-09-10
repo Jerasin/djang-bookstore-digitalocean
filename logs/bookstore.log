@@ -1,4 +1,2 @@
-2021-09-10 17:12:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
-2021-09-10 17:12:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
-2021-09-10 17:12:47 [INFO    ] (basehttp.log_message) "GET /signup/ HTTP/1.1" 200 7838
-2021-09-10 17:12:47 [INFO    ] (basehttp.log_message) "GET /signup/ HTTP/1.1" 200 7838
+2021-09-11 00:15:25 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-11 00:15:25 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.

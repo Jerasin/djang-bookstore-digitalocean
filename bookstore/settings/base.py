@@ -9,25 +9,16 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
+
 import dj_database_url
 from pathlib import Path
-from os import walk
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-gx%xf5_w)ldyq$_%a@-@xj9=7!+ep0@f$+^sa*bc)2x%6&=9=*'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = ['188.166.208.101' 
-                ,'127.0.0.1'
-                ]
 
 
 # Application definition
@@ -66,7 +57,7 @@ ROOT_URLCONF = 'bookstore.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [Path(BASE_DIR, 'templates')],
+        'DIRS': [Path(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -91,23 +82,23 @@ DATABASES = {
     # 'default': dj_database_url.config(conn_max_age=600,ssl_require=True)
 
     # use Development
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'bookstore',
-    #     'USER': 'root',
-    #     'PASSWORD': 'Jc@123456',
-    #     'HOST': 'localhost',
-    #     'PORT': '3306',
-    # }
-
-    'default': {     
-    'ENGINE': 'django.db.backends.postgresql_psycopg2',       
-    'NAME': 'bookstore',       
-    'USER': 'djangouser',        
-    'PASSWORD': 'Jc@12345678',        
-    'HOST': 'localhost',       
-    'PORT': '',    
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'bookstore',
+        'USER': 'root',
+        'PASSWORD': 'Jc@123456',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
+
+    # 'default': {     
+    # 'ENGINE': 'django.db.backends.postgresql_psycopg2',       
+    # 'NAME': 'bookstore',       
+    # 'USER': 'djangouser',        
+    # 'PASSWORD': 'Jc@12345678',        
+    # 'HOST': 'localhost',       
+    # 'PORT': '',    
+    # }
 }
 
 # Password validation
@@ -157,7 +148,7 @@ MEDIA_ROOT = Path(BASE_DIR,'media')
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATIC_ROOT = Path(BASE_DIR,'static/')
-print('BASE_DIR',BASE_DIR / 'media')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
@@ -169,37 +160,6 @@ SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
 # Timeout Login Administration
 SESSION_COOKIE_AGE = 3600 
 
+
 # Custom User Model
 AUTH_USER_MODEL="stock_book.CustomUser"
-
-# Logging
-
-LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "root": {"level": "INFO", "handlers": ["file"]},
-    "handlers": {
-        "file": {
-            "level": "INFO",
-            "class": "logging.FileHandler",
-            "filename": "logs/bookstore.log",
-            "formatter": "app",
-        },
-    },
-    "loggers": {
-        "django": {
-            "handlers": ["file"],
-            "level": "INFO",
-            "propagate": True
-        },
-    },
-    "formatters": {
-        "app": {
-            "format": (
-                u"%(asctime)s [%(levelname)-8s] "
-                "(%(module)s.%(funcName)s) %(message)s"
-            ),
-            "datefmt": "%Y-%m-%d %H:%M:%S",
-        },
-    },
-}

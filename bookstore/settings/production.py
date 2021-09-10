@@ -34,7 +34,7 @@ LOGGING = {
         "file": {
             "level": "INFO",
             "class": "logging.FileHandler",
-            "filename": Path(BASE_DIR,"logs/bookstore.log"),
+            "filename": "/logs/bookstore.log",
             "formatter": "app",
         },
     },

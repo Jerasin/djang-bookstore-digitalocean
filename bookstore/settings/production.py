@@ -1,6 +1,9 @@
 from .base import *  # Import base settings from settings/__init__.py
 
 from decouple import config
+from pathlib import Path
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG_PRO')
@@ -34,7 +37,7 @@ LOGGING = {
         "file": {
             "level": "INFO",
             "class": "logging.FileHandler",
-            "filename": "/bookstore/logs/bookstore.log",
+            "filename": Path(BASE_DIR,'logs/bookstore.log'),
             "formatter": "app",
         },
     },

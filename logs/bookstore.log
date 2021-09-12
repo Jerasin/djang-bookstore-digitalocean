@@ -1,0 +1,10 @@
+2021-09-12 18:09:34 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6809
+2021-09-12 18:09:34 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6809
+2021-09-12 18:09:34 [WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-09-12 18:09:34 [WARNING ] (log.log_response) Not Found: /favicon.ico
+2021-09-12 18:09:34 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 8716
+2021-09-12 18:09:34 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 8716
+2021-09-12 18:10:04 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-12 18:10:04 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-12 18:10:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 18:10:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader

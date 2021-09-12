@@ -110,7 +110,6 @@ class UserView(ListView):
 
 def user_delete(request,pk):
     user_delete = CustomUser.objects.get(id=pk)
-    print(user_delete)
     user_delete.delete()    
     messages.success(request, 'Delete Success')
     return HttpResponseRedirect(reverse('stock_book:users_list', kwargs={}))
@@ -141,7 +140,6 @@ class BookDetailView(DetailView,MultipleObjectMixin):
     def get_context_data(self, **kwargs):
         object_list = BookComments.objects.filter(book_id=self.object.pk)
         context = super(BookDetailView, self).get_context_data(object_list=object_list, **kwargs)
-        print(context)
         return context
 
 
@@ -250,7 +248,6 @@ def book_update(request,pk):
     if request.method == 'GET':
             form = BookForm(instance=session)
     if request.method == 'POST':
-            print("request.POST",request.POST)
             form = BookForm(request.POST, request.FILES,instance=session)
             if form.is_valid():
                 if request.FILES and imageDeletePath:
@@ -304,7 +301,6 @@ def comment_add(request, slug):
 def cart_add(request, slug):
     # query ข้อมูลที่ Model ที่ชื่อ Book โดย where จาก slug
     book = get_object_or_404(Book, slug=slug)
-    print(book)
     # ดึงค่า seesion จาก key = 'cart_items' ถ้าไม่มีค่าให้ส่งเป็น [] แทน
     cart_items = request.session.get('cart_items') or []
 
@@ -411,9 +407,8 @@ def updated_address(request):
     if request.method == "POST":
         username = request.user
         if request.POST.get('address'):
-            print(request.POST.get('address'))
             Address.objects.filter(user_id=request.user.id).update(address=request.POST.get('address'))
-            messages.success(request, 'Update Success')
+            messages.success(request, 'Update Address Success')
         else:
             messages.error(request, 'Save Failed')
         url = reverse('stock_book:edit_address' , kwargs={'username': username})
@@ -433,7 +428,6 @@ def edit_qty(request):
             if cart_items[index]['slug'] == queryDict_to_Dict['slug'][item]:
                 cart_items[index]['qty'] = queryDict_to_Dict['qty'][item]
                 break
-    print("edit_qty",queryDict_to_Dict)
     request.session['cart_items'] = cart_items
 
     return HttpResponseRedirect(reverse('stock_book:cart_list', kwargs={}))
@@ -451,7 +445,6 @@ def login_view(request):
             login(request, user)
             # return HttpResponseRedirect(reverse('book:index'))
             # หรือใช้
-            print('Login')
             return redirect('stock_book:index')
     else:
         # สร้าง form login
@@ -464,7 +457,6 @@ def login_view(request):
 def logout_view(request):
     if request.method == 'POST':
         logout(request)
-        print('Logout')
         return redirect('stock_book:index')
 
 
@@ -479,7 +471,6 @@ def signup_view(request):
             # หาค่า id จาก username 
             # sql statement = SELECT id FROM CustomUser WHERE username = 'get_username' 
             get_id = CustomUser.objects.get(username=get_username).id
-            print('id',get_id)
             created_address = Address(user_id=get_id , address=get_address)
             address = created_address.save()
             login(request, user)
@@ -509,7 +500,6 @@ def create_salesorder(request, user_id):
         for value in cart_items:
             sum_price = float(value['price']) * float(value['qty'])
             grand_total += sum_price
-            print(grand_total)
             salesorder_save = SalesOrder.objects.create(saleorder_code_id=saleorder_code_running,
                                                         product_code=value['code'],
                                                         product_name=value['name'],
@@ -521,15 +511,19 @@ def create_salesorder(request, user_id):
         SalesOrderList.objects.filter(
             saleorder_code=saleorder_code_running).update(grand_total=grand_total, )
         saleorder_code_running += 1
-        print(saleorder_code_running)
+        # print(saleorder_code_running)
 
         # Reset Session
         request.session['cart_items'] = []
         request.session['cart_qty'] = []
 
         return redirect('stock_book:index')
-    except:
-        print('Error')
+    except Exception as e :
+        # print(saleorder_code_running)
+        current_saleorder_code_running = saleorder_code_running
+        while saleorder_code_running <= current_saleorder_code_running:
+            saleorder_code_running += 1
+        return create_salesorder(request, user_id)
 
 
 class HistoryListView(ListView):
@@ -543,15 +537,12 @@ class HistoryListView(ListView):
         # เช็คว่าเป็น Super CustomUser รึป่าว
         # print(self.request.user.is_superuser)
         checkSuperUser = self.request.user.is_superuser;
-        print("start",checkSuperUser)
 
         if checkSuperUser:
             history = SalesOrderList.objects.all()
-            print("checkSuperUser")
         else:
             get_user_id = CustomUser.objects.get(username=self.request.user)
             history = SalesOrderList.objects.filter(created_by_id=get_user_id).all()
-            print(history)  
         return history
 
     def get_context_data(self, *args, **kwargs):
@@ -598,7 +589,6 @@ class DetailSalesOrderListView(ListView):
         saleorder_code = self.kwargs['salesorder']
         saleorder_status = SalesOrderList.objects.filter(saleorder_code=saleorder_code)
         for item in saleorder_status:
-            print(item.saleorder_status)
             if item.saleorder_status == 'wait':
                 saleorder_status = False
             else:

@@ -8,3 +8,503 @@
 2021-09-12 18:10:04 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
 2021-09-12 18:10:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
 2021-09-12 18:10:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:20:36 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:20:36 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:20:50 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-12 20:20:50 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-12 20:20:50 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:20:50 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:20:53 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6809
+2021-09-12 20:20:53 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6809
+2021-09-12 20:20:53 [INFO    ] (basehttp.log_message) "GET /media/public/no_image_2.jpg HTTP/1.1" 304 0
+2021-09-12 20:20:53 [INFO    ] (basehttp.log_message) "GET /media/public/no_image_2.jpg HTTP/1.1" 304 0
+2021-09-12 20:20:54 [INFO    ] (basehttp.log_message) "GET /login/ HTTP/1.1" 200 6652
+2021-09-12 20:20:54 [INFO    ] (basehttp.log_message) "GET /login/ HTTP/1.1" 200 6652
+2021-09-12 20:21:00 [INFO    ] (basehttp.log_message) "GET /signup/ HTTP/1.1" 200 7838
+2021-09-12 20:21:00 [INFO    ] (basehttp.log_message) "GET /signup/ HTTP/1.1" 200 7838
+2021-09-12 20:21:13 [INFO    ] (basehttp.log_message) "POST /signup/ HTTP/1.1" 302 0
+2021-09-12 20:21:13 [INFO    ] (basehttp.log_message) "POST /signup/ HTTP/1.1" 302 0
+2021-09-12 20:21:13 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:21:13 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:21:15 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:21:15 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:21:16 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:21:16 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:21:16 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:21:16 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:21:18 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:21:18 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:21:18 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7069
+2021-09-12 20:21:18 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7069
+2021-09-12 20:21:19 [INFO    ] (basehttp.log_message) "POST /updated_address HTTP/1.1" 302 0
+2021-09-12 20:21:19 [INFO    ] (basehttp.log_message) "POST /updated_address HTTP/1.1" 302 0
+2021-09-12 20:21:20 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7508
+2021-09-12 20:21:20 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7508
+2021-09-12 20:21:20 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:21:20 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:21:20 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:21:20 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:21:22 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 6275
+2021-09-12 20:21:22 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 6275
+2021-09-12 20:21:24 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:21:24 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:21:25 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:21:25 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:21:26 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:21:26 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:21:26 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:21:26 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:21:28 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:21:28 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:21:30 [INFO    ] (basehttp.log_message) "POST /card_edit/ HTTP/1.1" 302 0
+2021-09-12 20:21:30 [INFO    ] (basehttp.log_message) "POST /card_edit/ HTTP/1.1" 302 0
+2021-09-12 20:21:30 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:21:30 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:21:31 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7069
+2021-09-12 20:21:31 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7069
+2021-09-12 20:21:34 [INFO    ] (basehttp.log_message) "POST /updated_address HTTP/1.1" 302 0
+2021-09-12 20:21:34 [INFO    ] (basehttp.log_message) "POST /updated_address HTTP/1.1" 302 0
+2021-09-12 20:21:34 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7499
+2021-09-12 20:21:34 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7499
+2021-09-12 20:21:40 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:21:40 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:21:40 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:21:40 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:21:42 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 6692
+2021-09-12 20:21:42 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 6692
+2021-09-12 20:24:31 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:24:31 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:24:32 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:24:32 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:28:19 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:28:19 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:28:20 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:28:20 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:28:32 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:28:32 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:28:33 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:28:33 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:28:34 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:28:34 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:28:34 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:28:34 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:28:36 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:28:36 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:28:36 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:28:36 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:28:37 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7060
+2021-09-12 20:28:37 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7060
+2021-09-12 20:28:40 [INFO    ] (basehttp.log_message) "POST /updated_address HTTP/1.1" 302 0
+2021-09-12 20:28:40 [INFO    ] (basehttp.log_message) "POST /updated_address HTTP/1.1" 302 0
+2021-09-12 20:28:40 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7509
+2021-09-12 20:28:40 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7509
+2021-09-12 20:28:41 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:28:41 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:28:41 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:28:41 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:30:03 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:30:03 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:30:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:30:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:30:07 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:30:07 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:30:07 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:30:07 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:30:08 [INFO    ] (basehttp.log_message) "POST /updated_address HTTP/1.1" 302 0
+2021-09-12 20:30:08 [INFO    ] (basehttp.log_message) "POST /updated_address HTTP/1.1" 302 0
+2021-09-12 20:30:08 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7509
+2021-09-12 20:30:08 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7509
+2021-09-12 20:30:11 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:30:11 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:30:11 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:30:11 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:30:41 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:30:41 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:30:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:30:42 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:30:45 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:30:45 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:30:45 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:30:45 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:30:47 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:30:47 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:30:47 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:30:47 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:31:20 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:31:20 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:31:20 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:31:20 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:31:27 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:31:27 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:32:45 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:32:45 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:32:45 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:32:45 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:32:52 [INFO    ] (basehttp.log_message) "POST /logout/ HTTP/1.1" 302 0
+2021-09-12 20:32:52 [INFO    ] (basehttp.log_message) "POST /logout/ HTTP/1.1" 302 0
+2021-09-12 20:32:52 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6809
+2021-09-12 20:32:52 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6809
+2021-09-12 20:40:40 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:40:40 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:40:41 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:40:41 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:40:56 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6809
+2021-09-12 20:40:56 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6809
+2021-09-12 20:40:58 [INFO    ] (basehttp.log_message) "GET /login/ HTTP/1.1" 200 6652
+2021-09-12 20:40:58 [INFO    ] (basehttp.log_message) "GET /login/ HTTP/1.1" 200 6652
+2021-09-12 20:41:07 [INFO    ] (basehttp.log_message) "POST /login/ HTTP/1.1" 302 0
+2021-09-12 20:41:07 [INFO    ] (basehttp.log_message) "POST /login/ HTTP/1.1" 302 0
+2021-09-12 20:41:07 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:41:07 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:41:24 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:41:24 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:41:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:41:24 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:41:40 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:41:40 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:41:42 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:41:42 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:41:42 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:41:42 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:41:43 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:41:43 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:41:44 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:41:44 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:41:46 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:41:46 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:41:46 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:41:46 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:41:58 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:41:58 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:41:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:41:59 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:42:03 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:03 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:03 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:03 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:04 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:04 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:05 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:42:05 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:42:05 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:42:05 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:42:11 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:42:11 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:42:28 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:42:28 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:42:29 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:42:29 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:42:35 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:35 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:36 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:42:36 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:42:36 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:42:36 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:42:39 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:39 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:40 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:42:40 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:42:40 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:42:40 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:42:42 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:42 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:42 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:42:42 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:42:42 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:42:42 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:42:49 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:42:49 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:44:32 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:44:32 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:44:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:44:33 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:44:35 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:44:35 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:44:36 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:44:36 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:44:36 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:44:36 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:44:37 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:44:37 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:44:47 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:44:47 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:44:49 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:44:49 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:44:55 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:44:55 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:44:55 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:44:55 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:44:56 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:44:56 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:45:30 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:45:30 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:45:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:45:31 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:45:33 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:45:33 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:45:33 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:45:33 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:45:34 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:45:34 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:45:41 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:45:41 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:45:41 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:45:41 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:45:42 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:45:42 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:46:21 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:46:21 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:46:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:46:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:46:34 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:46:34 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:46:35 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:46:35 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:47:21 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:47:21 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:47:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:47:22 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:47:36 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:47:36 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:48:06 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:48:06 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:49:23 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:49:23 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:49:23 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:49:23 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:49:24 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:49:24 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:49:24 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:49:24 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:49:26 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:49:26 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:49:28 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:49:28 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:49:29 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:49:29 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:49:29 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:49:29 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:49:31 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:49:31 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:49:32 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:49:32 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 20:49:32 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:49:32 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:49:33 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:49:33 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:49:34 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 7109
+2021-09-12 20:49:34 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 7109
+2021-09-12 20:50:12 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:50:12 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:50:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:50:13 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:50:20 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 7109
+2021-09-12 20:50:20 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 7109
+2021-09-12 20:50:21 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:50:21 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 20:50:23 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:50:23 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 20:50:24 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:50:24 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 20:50:24 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:50:24 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 20:50:25 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:50:25 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:50:26 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:50:26 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:50:27 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:50:27 [ERROR   ] (log.log_response) Internal Server Error: /create_salesorder/4
+Traceback (most recent call last):
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\Jinyong\Desktop\bookstore\bookstore-app\lib\site-packages\django\core\handlers\base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view stock_book.views.create_salesorder didn't return an HttpResponse object. It returned None instead.
+2021-09-12 20:50:27 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:50:27 [ERROR   ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 500 67326
+2021-09-12 20:50:57 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:50:57 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 20:50:57 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:50:57 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 20:51:00 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 7794
+2021-09-12 20:51:00 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 7794
+2021-09-12 20:51:02 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:51:02 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 20:51:07 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 20:51:07 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 21:36:54 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:36:54 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:36:55 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:36:55 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:36:58 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 21:36:58 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 21:36:59 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 21:36:59 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 21:37:00 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 21:37:00 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 21:37:01 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 21:37:01 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 21:37:02 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 21:37:02 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 21:37:02 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:37:02 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:37:10 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:37:10 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:37:11 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 7943
+2021-09-12 21:37:11 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 7943
+2021-09-12 21:37:47 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:37:47 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:37:48 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:37:48 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:37:57 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:37:57 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:37:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:37:58 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:38:25 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:38:25 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:38:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:38:26 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:38:44 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:38:44 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:38:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:38:44 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:39:10 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:39:10 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:39:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:39:11 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:39:22 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:39:22 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:39:23 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 21:39:23 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 21:39:24 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 21:39:24 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 21:39:24 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 21:39:24 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 21:39:26 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 21:39:26 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 21:39:27 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 21:39:27 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 21:39:28 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 21:39:28 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 21:39:28 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:39:28 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:39:30 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:39:30 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:39:30 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 8141
+2021-09-12 21:39:30 [INFO    ] (basehttp.log_message) "GET /show_history HTTP/1.1" 200 8141
+2021-09-12 21:39:32 [INFO    ] (basehttp.log_message) "GET /show_history?page=2 HTTP/1.1" 200 6512
+2021-09-12 21:39:32 [INFO    ] (basehttp.log_message) "GET /show_history?page=2 HTTP/1.1" 200 6512
+2021-09-12 21:39:56 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:39:56 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\stock_book\views.py changed, reloading.
+2021-09-12 21:39:57 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:39:57 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:40:05 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:40:05 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:40:06 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 21:40:06 [INFO    ] (basehttp.log_message) "GET /detail/admin-programming/ HTTP/1.1" 200 6333
+2021-09-12 21:40:07 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 21:40:07 [INFO    ] (basehttp.log_message) "GET /cart/add/admin-programming/ HTTP/1.1" 302 0
+2021-09-12 21:40:07 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 21:40:07 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7465
+2021-09-12 21:40:08 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 21:40:08 [INFO    ] (basehttp.log_message) "GET /cart_list/ HTTP/1.1" 200 9225
+2021-09-12 21:40:09 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 21:40:09 [INFO    ] (basehttp.log_message) "GET /edit_address/Test1 HTTP/1.1" 200 7062
+2021-09-12 21:40:09 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 21:40:09 [INFO    ] (basehttp.log_message) "GET /create_salesorder/4 HTTP/1.1" 302 0
+2021-09-12 21:40:09 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:40:09 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 7197
+2021-09-12 21:40:59 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-12 21:40:59 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-12 21:41:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-12 21:41:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader

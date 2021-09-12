@@ -618,7 +618,7 @@ def set_approve(request, salesorder):
 def set_reject(request, salesorder):
     SalesOrderList.objects.filter(
         saleorder_code=salesorder).update(saleorder_status='reject')
-    return redirect('stock_book:salesorder_detail')
+    return redirect('stock_book:dashboard_page')
 
 class DashBoardView(ListView):
     Model = SalesOrderList

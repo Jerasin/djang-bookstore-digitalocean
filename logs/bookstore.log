@@ -542,3 +542,23 @@ ValueError: The view stock_book.views.create_salesorder didn't return an HttpRes
 2021-09-13 14:58:59 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
 2021-09-13 14:59:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
 2021-09-13 14:59:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 15:07:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 15:07:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 15:07:45 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-13 15:07:45 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-13 15:07:45 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 15:07:45 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 15:07:47 [WARNING ] (log.log_response) Not Found: /bookstore/
+2021-09-13 15:07:47 [WARNING ] (log.log_response) Not Found: /bookstore/
+2021-09-13 15:07:47 [WARNING ] (basehttp.log_message) "GET / HTTP/1.1" 404 2444
+2021-09-13 15:07:47 [WARNING ] (basehttp.log_message) "GET / HTTP/1.1" 404 2444
+2021-09-13 15:07:53 [WARNING ] (log.log_response) Not Found: /bookstore/bookstore/
+2021-09-13 15:07:53 [WARNING ] (log.log_response) Not Found: /bookstore/bookstore/
+2021-09-13 15:07:53 [WARNING ] (basehttp.log_message) "GET /bookstore/ HTTP/1.1" 404 2492
+2021-09-13 15:07:53 [WARNING ] (basehttp.log_message) "GET /bookstore/ HTTP/1.1" 404 2492
+2021-09-13 15:08:03 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\urls.py changed, reloading.
+2021-09-13 15:08:03 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\urls.py changed, reloading.
+2021-09-13 15:08:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 15:08:04 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 15:08:05 [INFO    ] (basehttp.log_message) "GET /bookstore/ HTTP/1.1" 200 6949
+2021-09-13 15:08:05 [INFO    ] (basehttp.log_message) "GET /bookstore/ HTTP/1.1" 200 6949

@@ -160,7 +160,7 @@ SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
 # Timeout Login Administration
 SESSION_COOKIE_AGE = 3600 
 
-FORCE_SCRIPT_NAME = '/bookstore'
+FORCE_SCRIPT_NAME = '/bookstore/'
 
 # Custom User Model
 AUTH_USER_MODEL="stock_book.CustomUser"

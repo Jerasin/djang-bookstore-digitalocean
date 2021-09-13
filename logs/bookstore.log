@@ -524,3 +524,21 @@ ValueError: The view stock_book.views.create_salesorder didn't return an HttpRes
 2021-09-13 14:44:16 [WARNING ] (log.log_response) Not Found: /bookstore/bookstore
 2021-09-13 14:44:16 [WARNING ] (basehttp.log_message) "GET /bookstore HTTP/1.1" 404 8720
 2021-09-13 14:44:16 [WARNING ] (basehttp.log_message) "GET /bookstore HTTP/1.1" 404 8720
+2021-09-13 14:58:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 14:58:38 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 14:58:39 [WARNING ] (log.log_response) Not Found: /bookstore/
+2021-09-13 14:58:39 [WARNING ] (log.log_response) Not Found: /bookstore/
+2021-09-13 14:58:39 [WARNING ] (basehttp.log_message) "GET / HTTP/1.1" 404 2540
+2021-09-13 14:58:39 [WARNING ] (basehttp.log_message) "GET / HTTP/1.1" 404 2540
+2021-09-13 14:58:46 [INFO    ] (basehttp.log_message) "GET /bookstore HTTP/1.1" 301 0
+2021-09-13 14:58:46 [INFO    ] (basehttp.log_message) "GET /bookstore HTTP/1.1" 301 0
+2021-09-13 14:58:46 [WARNING ] (log.log_response) Not Found: /bookstore/bookstore/bookstore/
+2021-09-13 14:58:46 [WARNING ] (log.log_response) Not Found: /bookstore/bookstore/bookstore/
+2021-09-13 14:58:46 [WARNING ] (basehttp.log_message) "GET /bookstore/bookstore/ HTTP/1.1" 404 9093
+2021-09-13 14:58:46 [WARNING ] (basehttp.log_message) "GET /bookstore/bookstore/ HTTP/1.1" 404 9093
+2021-09-13 14:58:50 [INFO    ] (basehttp.log_message) "GET /bookstore/ HTTP/1.1" 200 6949
+2021-09-13 14:58:50 [INFO    ] (basehttp.log_message) "GET /bookstore/ HTTP/1.1" 200 6949
+2021-09-13 14:58:59 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-13 14:58:59 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
+2021-09-13 14:59:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 14:59:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader

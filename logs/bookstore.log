@@ -508,3 +508,19 @@ ValueError: The view stock_book.views.create_salesorder didn't return an HttpRes
 2021-09-12 21:40:59 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\__init__.py changed, reloading.
 2021-09-12 21:41:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
 2021-09-12 21:41:00 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 14:43:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 14:43:47 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 14:44:06 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\base.py changed, reloading.
+2021-09-13 14:44:06 [INFO    ] (autoreload.trigger_reload) C:\Users\Jinyong\Desktop\bookstore\bookstore-app\bookstore\bookstore\settings\base.py changed, reloading.
+2021-09-13 14:44:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 14:44:06 [INFO    ] (autoreload.run_with_reloader) Watching for file changes with StatReloader
+2021-09-13 14:44:09 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6879
+2021-09-13 14:44:09 [INFO    ] (basehttp.log_message) "GET / HTTP/1.1" 200 6879
+2021-09-13 14:44:09 [WARNING ] (log.log_response) Not Found: /bookstore/favicon.ico
+2021-09-13 14:44:09 [WARNING ] (log.log_response) Not Found: /bookstore/favicon.ico
+2021-09-13 14:44:09 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 8726
+2021-09-13 14:44:09 [WARNING ] (basehttp.log_message) "GET /favicon.ico HTTP/1.1" 404 8726
+2021-09-13 14:44:16 [WARNING ] (log.log_response) Not Found: /bookstore/bookstore
+2021-09-13 14:44:16 [WARNING ] (log.log_response) Not Found: /bookstore/bookstore
+2021-09-13 14:44:16 [WARNING ] (basehttp.log_message) "GET /bookstore HTTP/1.1" 404 8720
+2021-09-13 14:44:16 [WARNING ] (basehttp.log_message) "GET /bookstore HTTP/1.1" 404 8720
